@@ -1,0 +1,23 @@
+ls
+cd
+git init
+git remote add origin <gitlink>
+git remote -v
+git add
+git commit -m "first commit"
+git push origin master
+
+#help
+git help
+
+#add
+ git add . {adds everthing in cur dir}
+
+
+#reset
+git pull --rebase origin master
+git push origin master
+
+#change url
+git remote set-url origin git@gitserver.com:user/repo_name.git
+git remote -v
